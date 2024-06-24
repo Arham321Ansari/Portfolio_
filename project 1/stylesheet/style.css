@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    padding: 15px 0px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    
+}
+nav li{
+    font-weight: 900;
+}
+nav li a{
+    color: rgb(0, 0, 0);
+}
+nav li a:hover{
+    color: rgb(99, 90, 90);
+}
+input{
+    padding: 4px 10px;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.left-sec{
+    width: 60%;
+    padding: 0 8%;
+}
+.left-sec h1{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.left-sec h1 span{
+    font-weight: 900;
+    color: rgb(18,155,155);
+    background-color: #dfdfe0;
+}
+.left-sec p{
+    font-size: 28px;
+    font-weight: 500;
+}
+.left-sec p span{
+    font-weight: 700;
+    color: rgb(18,155,155);
+    font-size: 30px;
+}
+.right-sec{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.right-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 15px;
+    margin-left: 105px;
+    border-radius: 9px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    font-weight: 600;
+   
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+}
+.fa-github{
+    color: rgb(78, 80, 91);;
+    font-size: xx-large;
+}
+.fa-instagram{
+    color: rgb(78, 80, 91);;
+    font-size: xx-large;    
+}
+.fa-linkedin{
+    color: rgb(78, 80, 91);
+    font-size: xx-large;     
+}
